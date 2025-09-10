@@ -1,0 +1,28 @@
+{
+  "name": "gen-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/speech": "^7.2.0",
+    "@google/genai": "^1.18.0",
+    "@langchain/core": "^0.3.75",
+    "@langchain/openai": "^0.6.11",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
+    "google-auth-library": "^10.3.0",
+    "mic": "^2.1.2",
+    "node-microphone": "^0.1.6",
+    "node-record-lpcm16": "^1.0.1",
+    "nodemailer": "^7.0.6",
+    "puppeteer": "^24.19.0",
+    "say": "^0.16.0",
+    "speech-to-text": "^3.0.2"
+  }
+}
